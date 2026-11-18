@@ -53,6 +53,7 @@ dependencies {
     debugImplementation(libs.androidx.compose.ui.test.manifest)
     debugImplementation(libs.androidx.compose.ui.tooling)
     val nav_version ="2.9.0"
+    implementation("androidx.compose.material:material-icons-core")
     implementation("androidx.navigation:navigation-compose:$nav_version")
     implementation ("androidx.lifecycle:lifecycle-viewmodel-compose:2.11.0")
     implementation("androidx.compose.runtime:runtime-livedata")
